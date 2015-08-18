@@ -1,0 +1,24 @@
+body {
+    color: blueviolet;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 10px;
+    border: solid 1px ;
+    border-color: grey;
+    border-radius: 6px;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+li:hover {
+    background-color: blueviolet;
+    color: #ffffff;
+}
+
+a:hover {
+    color: white;
+}
