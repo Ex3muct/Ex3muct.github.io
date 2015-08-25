@@ -64,7 +64,7 @@ li:hover {
 
 }
 
-a:hover + .hidden {
+li:hover + .hidden {
     visibility: visible;
     display: block;
 }
@@ -74,11 +74,7 @@ a {
     color: white;
 }
 
-.nav:hover + .hidden{
-    visibility: visible;
 
-
-}
 
 .hidden a {
     text-decoration: none;
