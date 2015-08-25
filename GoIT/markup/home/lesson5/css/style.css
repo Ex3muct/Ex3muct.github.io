@@ -39,7 +39,7 @@ ul li {
 li:hover {
     color: #A0A0A0;
     background-color: #EEEEEE;
-    border-top: darkgray 1px solid;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, .2);
 }
 
 .hidden {
@@ -52,7 +52,7 @@ li:hover {
     visibility: hidden;
     font-weight: normal;
     font-family: 'Economica', sans-serif;
-
+    margin-top: 7px;
 
 }
 
@@ -61,11 +61,12 @@ li:hover {
     font-size: 15px;
     color: #A0A0A0;
     font-weight: normal;
+
 }
 
 a:hover + .hidden {
     visibility: visible;
-
+    display: block;
 }
 
 a {
@@ -75,6 +76,11 @@ a {
 
 .nav:hover + .hidden{
     visibility: visible;
-    display: block;
 
+
+}
+
+.hidden a {
+    text-decoration: none;
+    color: #A0A0A0;
 }
