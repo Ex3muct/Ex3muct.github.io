@@ -1,8 +1,6 @@
-
 body {
     margin: 0;
     padding: 0;
-
 }
 
 .wrap {
@@ -16,14 +14,12 @@ ul {
     margin: 0;
 }
 
-
 ul li {
     display: inline-block;
     padding: 7px 10px 7px 10px;
     font-family: 'Economica', sans-serif;
     font-size: 16px;
     font-weight: bold;
-
 }
 
 .nav {
@@ -53,20 +49,19 @@ li:hover {
     font-weight: normal;
     font-family: 'Economica', sans-serif;
     margin-top: 7px;
-
 }
-
 .hidden ul li{
-
     font-size: 15px;
     color: #A0A0A0;
     font-weight: normal;
-
 }
 
-li:hover + .hidden {
+li:hover .hidden{
     visibility: visible;
-    display: block;
+}
+
+li:hover {
+    color: #A0A0A0;
 }
 
 a {
@@ -74,9 +69,13 @@ a {
     color: white;
 }
 
-
-
 .hidden a {
     text-decoration: none;
     color: #A0A0A0;
 }
+
+a:hover {
+    text-decoration: none;
+    color: #A0A0A0;
+}
+
