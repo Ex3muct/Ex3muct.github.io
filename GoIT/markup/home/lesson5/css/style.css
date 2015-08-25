@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrap {
+    background-color:#1AA4FF;
+    width: 100%;
+    margin-top: 20px;
+}
+
+ul {
+    color: white;
+    margin: 0;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 7px 10px 7px 10px;
+    font-family: 'Economica', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.nav {
+    margin: 0 auto;
+    width: 900px;
+}
+
+@font-face {
+    font-family: impact; /* Гарнитура шрифта */
+    src: url(fonts/impact.ttf); /* Путь к файлу со шрифтом */
+}
+
+li:hover {
+    color: #A0A0A0;
+    background-color: #EEEEEE;
+    border-top: darkgray 1px solid;
+}
+
+.hidden {
+    position: absolute;
+    background-color: #EEEEEE;
+    margin: auto;
+    width: 900px;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    font-weight: normal;
+    font-family: 'Economica', sans-serif;
+
+
+}
+
+.hidden ul li{
+
+    font-size: 15px;
+    color: #A0A0A0;
+    font-weight: normal;
+}
+
+a:hover + .hidden {
+    visibility: visible;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav:hover + .hidden{
+    visibility: visible;
+    display: block;
+
+}
