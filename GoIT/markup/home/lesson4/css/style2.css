@@ -1,24 +1,25 @@
-body {
-    color: blueviolet;
-}
-
 li {
     display: inline-block;
-    padding: 5px 10px;
     border: solid 1px ;
-    border-color: grey;
+    border-color: #DDDDDD;
     border-radius: 6px;
+    padding: 5px 0;
 }
 a {
     text-decoration: none;
-    color: blueviolet;
+    color: #A13BCF;
+    padding: 5px 10px;
 }
-
-li:hover {
-    background-color: blueviolet;
-    color: #ffffff;
-}
-
 a:hover {
+    background-color: #A13BCF;
     color: white;
+    padding: 5px 10px 6px;
+    border-radius: 5px;
 }
+li:hover {
+    border: 1px solid #A13BCF;
+}
+.no_border {
+    border: 1px solid #fff;
+}
+
