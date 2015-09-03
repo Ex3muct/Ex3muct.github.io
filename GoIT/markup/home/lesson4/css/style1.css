@@ -11,11 +11,8 @@ body {
 }
 
 ul {
-    color: white;
     margin: 0;
 }
-
-
 ul li {
      display: inline-block;
      padding: 0 15px;
@@ -23,23 +20,26 @@ ul li {
      font-size: 20px;
      line-height: 2;
  }
-
 .nav {
     margin: 0 auto;
     width: 900px;
 }
-
 @font-face {
     font-family: impact; /* Гарнитура шрифта */
     src: url(fonts/impact.ttf); /* Путь к файлу со шрифтом */
 }
-
 li:hover {
-    color: dimgrey;
-    background-color: darkgray;
+    color: #A0A0A0;
+    background-color: #EEEEEE;
 }
-
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #A0A0A0;
+    background-color: #EEEEEE;
+}
 ul li:last-child {
     float: right;
-
 }
