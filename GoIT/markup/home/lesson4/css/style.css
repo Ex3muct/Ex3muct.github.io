@@ -12,24 +12,25 @@ ul {
 }
 ul li {
     display: inline-block;
-    padding: 0 15px;
-    font-family: impact;
+
+    font-family: Economica;
     font-size: 25px;
     line-height: 2;
+    text-transform: uppercase;
+    font-weight: bold;
+
 }
 .nav {
     margin: 0 auto;
     width: 900px;
 }
-@font-face {
-    font-family: impact;
-    src: url(fonts/impact.ttf);
-}
+
 li:hover {
     color: #A0A0A0;
     background-color: #EEEEEE;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
-a {
+a { padding: 11px 10px;
     color: white;
     text-decoration: none;
 }
@@ -37,3 +38,4 @@ a:hover {
     color: #A0A0A0;
     background-color: #EEEEEE;
 }
+

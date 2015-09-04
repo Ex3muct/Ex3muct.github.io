@@ -1,0 +1,19 @@
+table,
+td
+{
+    border-collapse: collapse;
+}
+td
+{
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+td:nth-child(2n+1) {
+    background: #f2f2de;
+}
+tr:nth-child(2n){
+    background-color: #ddebf7;
+}
+td:first-child {
+    background: none;
+}

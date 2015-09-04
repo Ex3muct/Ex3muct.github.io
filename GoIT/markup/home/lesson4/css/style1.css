@@ -15,26 +15,27 @@ ul {
 }
 ul li {
      display: inline-block;
-     padding: 0 15px;
-     font-family: impact;
+     font-weight: bold;
+     font-family: Economica;
      font-size: 20px;
      line-height: 2;
+     text-transform: uppercase;
  }
 .nav {
     margin: 0 auto;
     width: 900px;
 }
-@font-face {
-    font-family: impact; /* Гарнитура шрифта */
-    src: url(fonts/impact.ttf); /* Путь к файлу со шрифтом */
-}
+
+
 li:hover {
     color: #A0A0A0;
     background-color: #EEEEEE;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
 a {
     color: white;
     text-decoration: none;
+    padding: 9px 10px ;
 }
 a:hover {
     color: #A0A0A0;
