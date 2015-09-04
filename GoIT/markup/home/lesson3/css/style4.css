@@ -1,0 +1,16 @@
+a {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a[href*="ya"] {
+    color: #FF7700;
+}
+a[href*="google"] {
+    color: #666666;
+}
+
+a[href^="http://maps.yandex.ru"]::after {
+    content:url("../images/external.png");
+    padding-left:5px;
+}
