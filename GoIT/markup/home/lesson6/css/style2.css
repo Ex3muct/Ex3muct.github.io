@@ -1,0 +1,119 @@
+.body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.reviews {
+    background: url(../images/bg.png);
+    width: 1400px;
+    height: 315px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    color: #3170a8;
+    font-family: Trebuchet MS;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-weight: normal;
+    width: 1365px;
+
+}
+.foto_reviews_left {
+    width: 100px;
+    height: 100px;
+    background: url(../images/girl.jpg);
+    float: left;
+}
+.foto_reviews_right {
+    width: 100px;
+    height: 100px;
+    background: url(../images/men.jpg);
+    float: left;
+}
+.one_reviews {
+    background: url(../images/bg.png);
+    width: 490px;
+    float: left;
+    margin-left: 190px;
+
+}
+.two_reviews {
+    background: url(../images/bg.png);
+    width: 490px;
+    float: left;
+    margin-left: 41px;
+}
+
+.text_reviews_left::before {
+    content: '';
+    position: absolute;
+    top:35px;
+    left:-15px;
+    border-right: 18px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.text_reviews_right::before {
+    content: '';
+    position: absolute;
+    top:35px;
+    left:-15px;
+    border-right: 18px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.text_reviews_right {
+    background: #fff;
+    width: 345px;
+    margin-left: 126px;
+    position: absolute;
+    padding-left: 18px;
+    font-size: 13px;
+    padding-top: 14px;
+}
+.text_reviews_left {
+    background: #fff;
+    width: 345px;
+    margin-left: 126px;
+    position: absolute;
+    padding-left: 18px;
+    font-size: 13px;
+    padding-top: 14px;
+
+}
+.title_reviews {
+    color: #3070a8;
+    font-family: Trebuchet MS;
+    font-style: italic;
+    float: left;
+}
+.user {
+    color: #3070a8;
+    font-family: Trebuchet MS;
+    font-style: italic;
+    float: right;
+    padding-right: 24px;
+}
+hr {
+    border: 0;
+    border-bottom: 1px dotted #666666;
+    padding-top: 10px;
+    margin-right: 20px;
+    clear: both;
+}
+.orange {
+    color: #ee8129;
+}
+.text {
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    color: #666666;
+    padding-bottom: 14px;
+}
