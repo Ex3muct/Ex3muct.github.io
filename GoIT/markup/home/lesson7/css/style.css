@@ -118,6 +118,9 @@ body {
     background-color: #eeb119;
     visibility: hidden;
     color: #2725ff;
+    margin-left: 130px;
+    width: 200px;
+
 }
 .sivtsev:hover .block{
     visibility: visible;
