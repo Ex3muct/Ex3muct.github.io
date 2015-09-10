@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper   {
+    max-width: 1600px;
+    background: #f7f8fa ;
+    margin: 0 auto;
+    height: 900px;
+}
+h2 {
+    font-family: lato, sans-serif;
+    color: #2d3950;
+    text-align: center;
+    font-size: 41px;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 17px;
+    padding-top: 60px;
+
+
+}
+
+.slogan {
+    font-size: 15px;
+    color: #909090;
+    font-family: lato, sans-serif;
+    text-align: center;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+.gallery {
+    margin: 0 auto;
+    max-width: 75%;
+
+    margin-top: 63px;
+}
+
+.item {
+    width: 360px;
+    height:260px;
+    float: left;
+    margin: 15px 15px;
+    position: relative;
+    overflow: hidden;
+}
+.item:before {
+    opacity: 0;
+}
+.item:hover:before {
+    content: ' ';
+    background-color: #25a6f7;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    width: 100%;
+}
+
+.block {
+    content: ' ';
+    background-color: #25a6f7;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+}
+.item:hover .block{
+    visibility: visible;
+}
+.icon {
+    margin: 110px 125px;
+}
+.icon img {
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.icon a{
+
+    text-decoration: none;
+
+}
