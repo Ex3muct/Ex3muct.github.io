@@ -39,7 +39,6 @@ body {
     font-size: 14px;
     display: inline;
     text-transform: uppercase;
-
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -61,7 +60,6 @@ body {
 
 .specilist {
     background: url(../images/bgblock.jpg);
-    width: 1400px;
     height: 585px;
     clear: both;
     margin: 0 auto;
@@ -99,13 +97,129 @@ body {
 }
 
 .text_italic {
-    font-family: colibri, sans-serif ;
-    font-size: 18px;
+    font-family: calibri, sans-serif ;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
     color: #ffffff;
-    line-height: 1.7;
+    line-height: 1.5;
     letter-spacing: 0.5px;
+}
+
+.three_example {
+    width: 1040px;
+    margin: 0 auto;
+
+}
+
+.three_example h2 {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 73px;
+
+}
+.protect {
+    width: 329px;
+    float: left;
+}
+
+.protect_img {
+    background: url("../images/zamok.jpg");
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: auto;
+}
+.protect h2{
+    color: #3070a8;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 27px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+.text_protect {
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.alert {
+    float: left;
+    padding-left: 30px;
+    width: 325px;
+
+}
+
+.alert_img {
+    background: url("../images/alert.jpg");
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: auto;
+}
+
+.alert h2{
+    color: #3070a8;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 27px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+
+.text_alert {
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.detect {
+    float: left;
+    padding-left: 36px;
+    width: 320px;
+
+}
+
+.detect_img {
+    background: url("../images/detect.jpg");
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: auto;
+}
+
+.detect h2{
+    color: #3070a8;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 27px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+
+.text_detect {
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 @font-face {
@@ -118,11 +232,24 @@ body {
     src: url(../fonts/futurabt-bold.otf); /* ֿףעü ך פאיכף סמ רנטפעמל */
 
 }
+
+.lorem {
+    background: url(../images/bglorem.jpg);
+width: 100%;
+    height: 575px;
+    float: left;
+    margin: 20px auto;
+    padding: 0px;
+
+}
+
 .three_stock {
     margin: 0 auto;
     width: 898px;
     clear: both;
-    margin-top: 1216px;
+    padding-top: 48px;
+
+
 }
 .stock_left {
     padding: 0;
@@ -163,26 +290,26 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     padding: 0;
-    margin: 0 0 50px ;
+    margin: 0 0 60px ;
 }
 .title_left {
     width: 290px;
     font-size: 24px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 18px 0;
     color: #fff;
     text-transform: uppercase;
-    font-family: Trebuchet MS;
+    font-family: futurabt-bold, sans-serif;
     text-align: center;
     font-weight: bold;
 }
 .title_right {
     font-size: 24px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 18px 0;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Trebuchet MS;
+    font-family: futurabt-bold, sans-serif;
     text-align: center;
     font-weight: bold;
 }
@@ -190,10 +317,10 @@ body {
     width: 310px;
     font-size: 24px;
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 23px 0;
     color: #fff;
     text-transform: uppercase;
-    font-family: Trebuchet MS;
+    font-family: futurabt-bold, sans-serif;
     text-align: center;
     font-weight: bold;
 }
@@ -207,7 +334,7 @@ body {
 .black_title {
     color: #3f4042;
     font-size: 24px;
-    font-family: Trebuchet MS;
+    font-family: futurabt-book, sans-serif;
     padding: 17px 0;
     text-transform: uppercase;
     text-align: center;
@@ -217,7 +344,7 @@ body {
 .black_title_left {
     color: #3f4042;
     font-size: 24px;
-    font-family: Trebuchet MS;
+    font-family: futurabt-book, sans-serif;
     padding: 17px 0;
     text-transform: uppercase;
     text-align: center;
@@ -227,7 +354,7 @@ body {
 .black_title_right {
     color: #3f4042;
     font-size: 24px;
-    font-family: Trebuchet MS;
+    font-family: futurabt-book, sans-serif;
     padding: 17px 0;
     text-transform: uppercase;
     text-align: center;
@@ -236,8 +363,8 @@ body {
 }
 .currency {
     color: #35495a;
-    font-family: Trebuchet MS;
-    float:left;
+    font-family: futurabt-bold, sans-serif;;
+    float: left;
     font-weight: bold;
     font-size: 20px;
     margin-left: 68px;
@@ -245,7 +372,7 @@ body {
 }
 .currency_left {
     color: #35495a;
-    font-family: Trebuchet MS;
+    font-family: futurabt-bold, sans-serif;
     float:left;
     font-weight: bold;
     font-size: 20px;
@@ -254,7 +381,7 @@ body {
 }
 .currency_right {
     color: #35495a;
-    font-family: Trebuchet MS;
+    font-family: futurabt-bold, sans-serif;
     float:left;
     font-weight: bold;
     font-size: 20px;
@@ -265,33 +392,35 @@ body {
     top: -10px;
     left: 5px;
     color: #35495a;
-    font-family: Trebuchet MS;
+    font-family: futurabt-bold, sans-serif;
     font-size: 74px;
     position: relative;
-    float:left;
+    float: left;
+    letter-spacing: -7px;
 }
 .term {
     position: relative;
     color: #35495a;
     font-size: 18px;
-    font-family: Trebuchet MS;
+    font-family: futurabt-book, sans-serif;
     margin-top: 52px;
     left: 2px;
 }
 .three_stock ul {
     padding: 0 15px;
     margin-top: 23px;
-    color: #888c94;
     margin-bottom: 0;
 }
 .three_stock li {
     font-size: 15px;
-    font-family: Trebuchet MS;
+    font-family: calibri, sans-serif;
     clear: both;
     letter-spacing: 0.7px;
     list-style-type: none;
     margin-bottom: 1px;
     padding: 7px 0 10px 34px;
+    color: #888c94;
+    font-weight: bold;
 }
 .three_stock li:nth-child(2n+1){
     background-color: #edf5fd;
@@ -311,7 +440,7 @@ button{
     height: 40px;
     border-radius: 5px;
     color: #fff;
-    font-family: Trebuchet MS;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
     margin: 12px 18px 30px 18px;
@@ -329,7 +458,7 @@ button:hover {
     height: 40px;
     border-radius: 5px;
     color: #fff;
-    font-family: Trebuchet MS;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
     margin: 12px 18px 20px 18px;
@@ -343,24 +472,22 @@ button:hover {
 
 .reviews {
     background: url(../images/bg.png);
-    width: 1400px;
+    width: 100%;
     height: 315px;
     margin: 0 auto;
     float: left;
-    margin-top: 70px;
+    margin-top: 72px;
 }
 .reviews h2 {
     text-align: center;
     color: #3170a8;
-    font-family: Trebuchet MS;
+    font-family: futurabt-bold, sans-serif;
     font-size: 40px;
     text-transform: uppercase;
     padding-top: 50px;
-    padding-bottom: 40px;
     font-weight: normal;
-    width: 1365px;
-
-
+    margin-top: 0px;
+    padding-bottom: 6px;
 }
 .foto_reviews_left {
     width: 100px;
@@ -379,16 +506,19 @@ button:hover {
     width: 490px;
     float: left;
     margin-left: 190px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .two_reviews {
     background: url(../images/bg.png);
     width: 490px;
     float: left;
-    margin-left: 41px;
+    margin-left: 43px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.text_reviews_left::before {
+.text_reviews::before {
     content: '';
     position: absolute;
     top:35px;
@@ -397,44 +527,21 @@ button:hover {
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
 }
-.text_reviews_right::before {
-    content: '';
-    position: absolute;
-    top:35px;
-    left:-15px;
-    border-right: 18px solid #fff;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-}
-
-.text_reviews_right {
+.text_reviews {
     background: #fff;
     width: 345px;
     margin-left: 126px;
     position: absolute;
     padding-left: 18px;
-    font-size: 13px;
-    padding-top: 14px;
-}
-.text_reviews_left {
-    background: #fff;
-    width: 345px;
-    margin-left: 126px;
-    position: absolute;
-    padding-left: 18px;
-    font-size: 13px;
-    padding-top: 14px;
-
+    padding-top: 10px;
 }
 .title_reviews {
     color: #3070a8;
-    font-family: Trebuchet MS;
     font-style: italic;
     float: left;
 }
 .user {
     color: #3070a8;
-    font-family: Trebuchet MS;
     font-style: italic;
     float: right;
     padding-right: 24px;
@@ -448,12 +555,42 @@ hr {
 }
 .orange {
     color: #ee8129;
+    font-family: futurabt-book, sans-serif;
 }
 .text {
-    font-family: Trebuchet MS;
-    font-size: 13px;
     line-height: 1.5;
     letter-spacing: 0.3px;
     color: #666666;
     padding-bottom: 14px;
+}
+.contacts {
+    width: 100%;
+    clear: both;
+    float: right;
+}
+.adress {
+    width: 50%;
+    float: left;
+}
+.map {
+    width: 50%;
+    float: right;
+}
+footer {
+    height: 105px;
+    background-color: #3070a8;
+    color: #ffffff;
+    clear: both;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2.1;
+    padding-top: 20px;
+    letter-spacing: 0.6px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1d1c1c;
+    font-weight: bold;
 }
