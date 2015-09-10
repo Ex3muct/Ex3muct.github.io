@@ -106,10 +106,23 @@ body {
     letter-spacing: 0.5px;
 }
 
+.specilist button {
+    width: 246px;
+    height: 58px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border: 1px solid #8d96a2;
+    margin-left: 570px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .three_example {
     width: 1040px;
     margin: 0 auto;
-
 }
 
 .three_example h2 {
@@ -235,12 +248,54 @@ body {
 
 .lorem {
     background: url(../images/bglorem.jpg);
-width: 100%;
+    width: 100%;
     height: 575px;
     float: left;
     margin: 20px auto;
     padding: 0px;
 
+}
+
+.lorem_title {
+    font-size: 26px;
+    font-family: futurabt-book, sans-serif;
+    color: #ee8129;
+    text-transform: uppercase;
+    width: 50%;
+    padding-top: 76px;
+    padding-left: 190px;
+    width: 50%;
+    line-height: 1.8;
+}
+.lorem_italic {
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-style: italic;
+    width: 50%;
+    margin-top:9px;
+    padding-left: 190px;
+    width: 50%;
+    letter-spacing: -0.6px;
+}
+
+.lorem ul {
+     width: 615px;
+     color: #9d9d9d;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     padding-left: 229px;
+     letter-spacing: 0.3px;
+     margin-top:31px;
+     line-height: 2.4;
+ }
+
+.lorem li {
+    list-style: url("../images/grey.png");
+}
+.lorem ul li:nth-child(2n){
+    color: #3070a8;
+    list-style: url("../images/blue.png");
 }
 
 .three_stock {
@@ -285,7 +340,7 @@ width: 100%;
 }
 
 .three_stock h2 {
-    font-family: Trebuchet MS;
+    font-family: Trebuchet MS, sans-serif;
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
@@ -433,25 +488,25 @@ width: 100%;
     margin-right: 15px;
 }
 
-button{
+.white_stock button{
     background-color: #ee8129;
     text-align: center;
     width: 251px;
     height: 40px;
     border-radius: 5px;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
     margin: 12px 18px 30px 18px;
     border: none;
 }
-button:hover {
+.white_stock button:hover {
     box-shadow: 0 3px 2px #b3560b;
     background-color: #eeb119;
     text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
-.left_button{
+.white_stock_left button{
     background-color: #3371a6;
     text-align: center;
     width: 251px;
@@ -464,7 +519,7 @@ button:hover {
     margin: 12px 18px 20px 18px;
     border: none;
 }
-.left_button:hover {
+.white_stock_left button:hover {
     box-shadow: 0 3px 2px #16436a;
     background-color: #3371a6;
     text-shadow: 1px 1px 2px black, 0 0 1em #701e80;
@@ -569,8 +624,54 @@ hr {
     float: right;
 }
 .adress {
-    width: 50%;
+
     float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    padding-left: 190px;
+    font-weight: 600;
+}
+.adress ul{
+    list-style: none;
+    padding-left: 60px;
+}
+.pic {
+    position: absolute;
+    background: url("../images/contact.png");
+    width: 25px;
+    height: 31px;
+    margin-top: 42px;
+    margin-left: 5px;
+}
+.pic_two {
+    position: absolute;
+    background: url("../images/phone.png");
+    width: 22px;
+    height: 28px;
+    margin-top: 172px;
+}
+.pic_three {
+    position: absolute;
+    background: url("../images/mail.png");
+    width: 27px;
+    height: 16px;
+    margin-top: 217px;
+}
+.adress_one {
+     margin-top: 42px;
+     line-height: 2.1;
+ }
+.adress_two {
+    margin-top: 15px;
+}
+.adress_three {
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+.adress img {
+    padding-top: 20px;
+    padding-right: 17px;
 }
 .map {
     width: 50%;
@@ -588,7 +689,6 @@ footer {
     padding-top: 20px;
     letter-spacing: 0.6px;
 }
-
 footer a {
     text-decoration: none;
     color: #1d1c1c;
