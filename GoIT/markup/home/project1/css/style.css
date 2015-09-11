@@ -118,6 +118,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
     text-transform: uppercase;
     letter-spacing: 2px;
+    cursor: pointer
 }
 
 .three_example {
@@ -293,9 +294,19 @@ body {
 .lorem li {
     list-style: url("../images/grey.png");
 }
-.lorem ul li:nth-child(2n){
+.lorem ul li:hover{
     color: #3070a8;
     list-style: url("../images/blue.png");
+}
+
+.lorem a {
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+.lorem a:hover {
+    text-decoration: none;
+    color:  #3070a8;
 }
 
 .three_stock {
@@ -500,11 +511,13 @@ body {
     font-size: 14px;
     margin: 12px 18px 30px 18px;
     border: none;
+    cursor: pointer
 }
 .white_stock button:hover {
     box-shadow: 0 3px 2px #b3560b;
     background-color: #eeb119;
     text-shadow: 1px 1px 2px black, 0 0 1em red;
+    cursor: pointer
 }
 .white_stock_left button{
     background-color: #3371a6;
@@ -518,11 +531,13 @@ body {
     font-size: 14px;
     margin: 12px 18px 20px 18px;
     border: none;
+    cursor: pointer
 }
 .white_stock_left button:hover {
     box-shadow: 0 3px 2px #16436a;
     background-color: #3371a6;
     text-shadow: 1px 1px 2px black, 0 0 1em #701e80;
+    cursor: pointer
 }
 
 .reviews {
