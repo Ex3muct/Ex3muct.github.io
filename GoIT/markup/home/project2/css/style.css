@@ -34,10 +34,13 @@ h2 {
     src: url(fonts/Lato-Regular.ttf);
 }
 
-.gallery {
+.gallery_cover {
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 1170px;
+}
 
+.gallery {
+    min-width: 390px;
     margin-top: 63px;
 }
 
@@ -70,7 +73,7 @@ h2 {
 
 .block {
     content: ' ';
-    background-color: #25a6f7;
+    background-color: #39aef7;
     height: 100%;
     left: 0;
     opacity: 0.8;
@@ -83,15 +86,58 @@ h2 {
     visibility: visible;
 }
 .icon {
-    margin: 110px 125px;
+    margin: 122px 0 0 135px;
 }
-.icon img {
-    padding-left: 5px;
-    padding-right: 5px;
 
-}
-.icon a{
 
+.icon a {
+    padding: 14px 12px 11px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
     text-decoration: none;
+}
 
+.icon a:hover {
+    background-color: #25a6f7;
+    padding: 14px 12px 11px;
+    border: 1px solid #ffffff;
+}
+
+
+.con_img {
+    float: left;
+    position: relative;
+    background: #ffd140;
+    border: 1px solid #FFC000;
+    padding: 0;
+    width: 150px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 20px;
+}
+.img {
+    width: 140px;
+    max-height: 100px;
+    float: left;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    position: relative;
+}
+.clear_buton {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+    z-index: 10;
+}
+.clear_buton:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .9);
 }
