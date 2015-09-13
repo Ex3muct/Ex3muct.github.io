@@ -31,7 +31,7 @@ h2 {
 
 @font-face {
     font-family: lato;
-    src: url(fonts/Lato-Regular.ttf);
+    src: url(../fonts/Lato-Regular.ttf);
 }
 
 .gallery_cover {
@@ -48,7 +48,7 @@ h2 {
     width: 360px;
     height:260px;
     float: left;
-    margin: 15px 15px;
+    margin: 14px;
     position: relative;
     overflow: hidden;
 }
@@ -105,39 +105,26 @@ h2 {
 
 
 .con_img {
-    float: left;
-    position: relative;
-    background: #ffd140;
-    border: 1px solid #FFC000;
-    padding: 0;
-    width: 150px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin: 20px;
-}
+    position: absolute;
+    z-index: 2;
+ }
 .img {
-    width: 140px;
-    max-height: 100px;
-    float: left;
-    margin: 0;
-    background-color: #fff;
-    border: 1px solid #999;
-    padding: 4px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+
     cursor: pointer;
-    position: relative;
+    margin: 14px;
+
 }
 .clear_buton {
     position: absolute;
-    right: -12px;
-    top: -12px;
+    right: -3px;
+    top: -3px;
     cursor: pointer;
     z-index: 10;
 }
 .clear_buton:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, .9);
+    position: absolute;
+    background-image: url("../images/closehover.jpg");
+    width: 40px;
+    height: 40px;
 }
