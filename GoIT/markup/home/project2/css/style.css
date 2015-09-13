@@ -36,7 +36,7 @@ h2 {
 
 .gallery_cover {
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 1165px;
 }
 
 .gallery {
@@ -89,7 +89,6 @@ h2 {
     margin: 122px 0 0 135px;
 }
 
-
 .icon a {
     padding: 14px 12px 11px;
     border: 1px solid #ffffff;
@@ -102,24 +101,22 @@ h2 {
     padding: 14px 12px 11px;
     border: 1px solid #ffffff;
 }
-
-
 .con_img {
     position: absolute;
-    z-index: 2;
+    z-index: 100;
  }
 .img {
-
     cursor: pointer;
     margin: 14px;
-
+    z-index: 100;
 }
 .clear_buton {
     position: absolute;
     right: -3px;
     top: -3px;
     cursor: pointer;
-    z-index: 10;
+
+    z-index: 100;
 }
 .clear_buton:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, .9);
@@ -127,4 +124,15 @@ h2 {
     background-image: url("../images/closehover.jpg");
     width: 40px;
     height: 40px;
+}
+
+.parandga {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    opacity: 0.9;
 }

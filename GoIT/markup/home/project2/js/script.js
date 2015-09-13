@@ -1,5 +1,5 @@
 $(function(){
     $(".clear_buton").click(function(event){
-        $(".con_img").hide();
+        $(".con_img,.parandga").hide();
     });
 });
