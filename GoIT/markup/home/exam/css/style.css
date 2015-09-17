@@ -120,6 +120,8 @@ h3  {
 }
 .news_block {
     margin: 15px 7px 0;
+    display: inline-block;
+    vertical-align: bottom;
 }
 .news_left_title {
     background: url("../images/news_left_down.jpg");
