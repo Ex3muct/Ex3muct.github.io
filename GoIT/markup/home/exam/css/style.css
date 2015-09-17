@@ -5,7 +5,7 @@ body   {
 
 }
 .wrapper {
-    max-width: 970px;
+    width: 970px;
     background: #ffffff;
     border-radius: 3px;
     border: 1px solid #ededed;
