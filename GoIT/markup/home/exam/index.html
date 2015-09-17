@@ -6,6 +6,8 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -62,11 +64,11 @@
     <h3>Ta<span class="highlightme">bbb</span>s get your content in line</h3>
     <div class="tabs">
         <div class="tabs_header">
-            <div class="tabs_item">Tabbb One</div>
-            <div class="tabs_item">Tabbb Two</div>
-            <div class="tabs_item">Tabbb Three</div>
+            <div class="tabs_item" tabindex="1" id="1">Tabbb One</div>
+            <div class="tabs_item" tabindex="2" id="2">Tabbb Two</div>
+            <div class="tabs_item" tabindex="3" id="3">Tabbb Three</div>
         </div>
-        <div class="tabs_content1">
+        <div class="tabs_content">
             <p>You content can be <span class="highlightme">highlighted</span> like this.</p>
             <hr/>
             <ul>
@@ -76,9 +78,9 @@
                 <li>Nibh Sit Elit</li>
                 <li>Venenatis Tortor Aenean</li>
             </ul>
-           </div>
-        <div class="tabs_content2"></div>
-        <div class="tabs_content3"></div>
+        </div>
+        <div class="tabs_content">You content can be <span class="highlightme">highlighted</span> like this.</div>
+        <div class="tabs_content"></div>
     </div>
 </div>
 

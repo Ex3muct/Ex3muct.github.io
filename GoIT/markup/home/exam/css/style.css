@@ -202,10 +202,10 @@ h3  {
     padding: 13px 10px;
     border-right: 1px solid #ececec;
 }
-.tabs_content1 ul {
+.tabs_content ul {
     margin-top: 8px;
 }
-.tabs_content1 ul li {
+.tabs_content ul li {
     line-height: 20px;
     list-style-type: none;
 }
@@ -213,10 +213,10 @@ h3  {
     margin: 0 22px;
     color: #e5e5e5;
 }
-.tabs_content1 {
+.tabs_content {
     font-size: 12px;
 }
-.tabs_content1 p{
+.tabs_content p{
     font-size: 14px;
     margin: 28px 0 9px 19px;
 }
