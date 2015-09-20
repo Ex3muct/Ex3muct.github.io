@@ -1,3 +1,11 @@
-$(".tabs_header").click (function(){var tabindex=$(this).attr("tabindex")});
-$(".tabs_item").hide();
-$("#"+tabindex).show();
+$(document).ready(function() {
+    
+    $('.tabs_item').click(function(){
+        var index = $(this).attr('data-tabindex');
+        $('.tabs_item').removeClass('active');
+        $(this).addClass('active');
+    
+        $('.tabs_content').hide();
+        $('.tabs_content_' + index).show();
+    });
+});
