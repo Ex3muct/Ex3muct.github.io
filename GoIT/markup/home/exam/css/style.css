@@ -8,10 +8,10 @@ body   {
     background: #ffffff;
     border-radius: 3px;
     border: 1px solid #ededed;
-    height: 1800px;
-    margin: 0 auto;
-    margin-top: 61px;
+    height: 1390px;
+    margin: 61px auto;
 }
+
 .logo {
     font-family: 'Oleo Script', sans-serif;
     font-size: 40px;
@@ -26,31 +26,20 @@ body   {
     color: #999999;
     padding-left: 5px;
 }
- .navigation{
-    display: inline-block;
-    margin-top: -15px;
-     float: right;
+.navigation{
+
+    float: right;
 }
-.navigation .menu{
-    list-style: none;
+.menu{
     font-family: Oxygen, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-
-    margin-top: 57px;
+    margin-top: 42px;
     margin-right: 5px;
-
 }
-
-.navigation .menu li{
+.menu li{
     display: inline-block;
+}
 
-}
-.navigation a{
-    text-decoration: none;
-    color: #666666;
-    padding: 0 25px;
-}
 
 .menu li a{
     text-decoration: none;
@@ -58,15 +47,12 @@ body   {
     padding: 0 25px;
     line-height: 28px;
 }
-.navigation .menu li:hover{
+.menu li:hover{
     -background-color: #f5f5f5;
-    -border-radius:3px;
+    border-radius:3px;
 }
-.navigation .menu li a:hover{
+ .menu li a:hover{
     color: #222222;
-}
--.navigation .menu li a input:hover{
-    color: #f7dec3;
 }
 .submenu{
     -display: none;
@@ -77,11 +63,10 @@ body   {
 }
 .submenu{
     width: 170px;
-    height: 230px;
+    height: 185px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 4px;
-    background: rgba(255, 255, 255, 0.7);
     line-height:2px;
     padding-left: 10px;
 }
@@ -89,37 +74,31 @@ body   {
     border-bottom: 1px solid #e3e3e3;
     color: #949494;
     font-size: 10px;
-    width: 155px;
-    height: 42px;
-    padding-top: 12px;
-
+    width: 158px;
+    height: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .submenu li a{
     font-weight: bold;
     font-size: 12px;
-    text-align: left;
-    margin: 0;
-
+    padding: 0;
 }
 .submenu li:hover{
     font-weight: bold;
     font-size: 12px;
-    text-align: left;
-    margin: 0;
-    padding: 10px 100px 10px 10px;
-    background: f3f3f3;
+
+    background: rgba(243, 243, 243, 0.8);
     color: #000;
 }
 .apply{
-    color: #000;
+    color: #ffffff;
     padding: 5px 9px;
     border: 1px solid #efba4f;
     border-radius: 3px;
     background: #ffc552;
     margin-right: 13px;
 }
-
-
 .slaider_block {
     clear: both;
 }
@@ -164,17 +143,14 @@ hr {
     margin: 320px 20px 17px;
      clear: both;
 
-    color: red; /* ÷вет линии дл€ остальных браузеров */
-    background-color: red; /* ÷вет линии дл€ браузера Firefox и Opera */
 }
 
 .news {
     font-size: 15px;
     font-size: 0;
-    display: inline-flex;
+
     margin-left: 10px;
     height: 384px;
-
 }
 
 h3  {
@@ -183,7 +159,6 @@ h3  {
     font-size: 18px;
     color: #222222;
     font-weight: normal;
-    letter-spacing: -0.4px;
     padding-left: 20px;
 }
 .news_block {
@@ -212,9 +187,7 @@ h3  {
     letter-spacing: -0.7px;
     color: #666666;
 }
-.news_left_title p {
-    margin: 0;
-}
+
 .news_title_small {
     font-family: arial, sans-serif;
     padding-left: 11px;
@@ -229,7 +202,7 @@ h3  {
     width: 304px;
     font-size: 15px;
 }
-.news_center_title p {
+.news_center_title p, .news_right_title p, .news_left_title p {
     margin: 0;
 }
 .news_right_title {
@@ -238,9 +211,7 @@ h3  {
     width: 304px;
     font-size: 15px;
 }
-.news_right_title p {
-    margin: 0;
-}
+
 .news_title_text {
     font-family: arial, sans-serif;
     color: #666666;
@@ -257,19 +228,14 @@ h3  {
     border-radius: 3px;
     font-family: arial, sans-serif;
     margin: 18px 0 0 18px;
-    font-size: 14px;
     padding-bottom: 18px;
-    color: #333333;
     height: 218px;
 }
 .tabs_header {
-    border-bottom: 1px solid #ececec;
     font-size: 0;
     color: #999999;
     background: linear-gradient(to top,#f8f8f8, #fdfdfd);
 }
-
-
 .tabs_item {
     font-size: 14px;
     display: inline-block;
@@ -280,7 +246,7 @@ h3  {
     margin-top: 8px;
 }
 .tabs_content ul li {
-    line-height: 20px;
+    line-height: 1.7;
     list-style-type: none;
 }
 .tabs hr {
@@ -298,20 +264,16 @@ span.highlightme {
     background-color: #ffe7b9;
     color: #c07e00;
 }
-
 .tabs .tabs_content {
     display: none;
 }
-
 .tabs .tabs_content_1 {
     display: block;
-
 }
 .active {
     background: #ffffff;
     color: #666666;
 }
-
 .tabs img {
     border: 4px solid transparent;
     background-image: -webkit-linear-gradient(#f2f2f2, #e4e4e4 50%), -webkit-linear-gradient(#e4e4e4, #ccc);
@@ -323,30 +285,91 @@ span.highlightme {
     float: left;
     margin-right: 6px;
 }
-
 .obtek {
     float: left;
     padding: 0 137px 0 42px;
-
 }
-
 .news_box {
     float: left;
     margin-top: 10px;
     width: 280px;
-    font-size: 12px;
-    font-family: arial, sans-serif;
     padding: 0 14px;
 }
 .news_box p {
     font-size: 12px;
-    font-family: arial, sans-serif;
     line-height: 1.7;
     margin-top: 2px;
 }
-
 h4 {
     margin: 2px 0 0;
-    padding: 0;
+}
+footer {
+    font-size: 12px;
+}
+.footer_title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffad19;
     font-family: arial, sans-serif;
+    padding: 17px 0 0 23px;
+    margin: 0;
+}
+.down{
+    margin: 32px 20px 0 20px;
+    border-color: #e5e5e5;
+}
+.footer_list {
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    padding-left: 23px;
+    line-height: 2.5;
+    margin: 10px 0 30px;
+    width: 178px;
+    color: #666666;
+}
+.footer_list_two li {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 13px 0 13px 33px;
+    font-family: arial, sans-serif;
+}
+.footer_list_two {
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    width: 460px;
+    list-style-type: none;
+}
+.footer_list_first {
+    display: inline-block;
+    padding-right: 40px;
+}
+.footer_list_last {
+    line-height: 1.1;
+    display: inline-block;
+    padding: 2px 0 0 2px;
+    vertical-align: top;
+}
+.footer_list_last p{
+    padding: 17px 0 0 0;
+}
+.small {
+    font-size: 11px;
+    color: #c1c1c1;
+}
+.footer_list_two a{
+    text-decoration: none;
+    color: #666666;
+}
+.icon_list {
+    position: absolute;
+    content: url(../images/icon_list.png);
+    margin-top: 13px;
+}
+.lines {
+    content: url(../images/lines.png);
+    width: 985px;
+    height: 9px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -10px;
 }
