@@ -1,0 +1,18 @@
+span {display:inline-block;
+    color:white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input[type="checkbox"] {
+    display:none;
+}
+label {margin-right:  30px; text-decoration: underline;}
+#red:checked ~ label[for="red"], #blue:checked ~ label[for="blue"], #green:checked ~ label[for="green"] {opacity: 0.5;}
+label[for="red"] {color: red; }
+label[for="green"] {color: green; }
+label[for="blue"] {color: blue; }
+span.red  {background-color: red; }
+span.green{background-color: green; }
+span.blue {background-color: blue; }
+#red:checked ~ span.red, #green:checked ~ span.green, #blue:checked ~ span.blue  {display:none;}
