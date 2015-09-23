@@ -48,49 +48,54 @@ body   {
     line-height: 28px;
 }
 .menu li:hover{
-    -background-color: #f5f5f5;
+    background-color: #f5f5f5;
     border-radius:3px;
 }
- .menu li a:hover{
+.menu li a:hover{
     color: #222222;
 }
 .submenu{
-    -display: none;
+    display: none;
     position: absolute;
 }
 .menu li:hover ul.submenu{
     display:block;
 }
 .submenu{
-    width: 170px;
-    height: 185px;
+
+    padding-left: 8px;
+    width: 167px;
+    height: 161px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 4px;
-    line-height:2px;
-    padding-left: 10px;
+    line-height: 1px;
+
 }
 .submenu li{
     border-bottom: 1px solid #e3e3e3;
     color: #949494;
     font-size: 10px;
     width: 158px;
-    height: 30px;
-    padding-top: 7px;
+    padding-top: 4px;
     padding-bottom: 7px;
 }
-.submenu li a{
+.submenu a{
     font-weight: bold;
     font-size: 12px;
-    padding: 0;
+    padding-left: 5px !important;
+}
+
+.submenu_small_text {
+    padding-left: 5px !important;
 }
 .submenu li:hover{
-    font-weight: bold;
-    font-size: 12px;
 
     background: rgba(243, 243, 243, 0.8);
-    color: #000;
+
+    cursor: pointer;
 }
+
 .apply{
     color: #ffffff;
     padding: 5px 9px;
@@ -448,8 +453,44 @@ footer {
 .lines {
     content: url(../images/lines.png);
     width: 985px;
-    height: 9px;
+    height: 7px;
     position: absolute;
-    margin-top: -15px;
+    margin-top: -8px;
     margin-left: -10px;
+}
+
+.slide-item, .left_arrow {
+    display: none;
+}
+
+.slide-item:first-child {
+    display: block;
+}
+
+.shadow_right {
+    position: absolute;
+    width: 320px;
+    height: 10px;
+    background-color: #000;
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    margin-top: -18px;
+    margin-left: 630px;
+    z-index: -1;
+    box-shadow: 5px 5px 20px #000;
+}
+.shadow_left {
+    position: absolute;
+    width: 320px;
+    height: 10px;
+    background-color: #000;
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    box-shadow: 5px 5px 20px #000;
+    margin-top: -18px;
+    margin-left: 10px;
+    z-index: -1;
+    margin-bottom: 80px;
 }
