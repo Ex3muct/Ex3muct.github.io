@@ -109,6 +109,7 @@ body   {
     margin-left: 76px;
     clear: both;
     float: left;
+    position: relative;
 }
 .slaider img {
     border: 4px solid transparent;
@@ -126,6 +127,85 @@ body   {
     text-align: right;
     font-family: 'Oxygen', sans-serif;
 }
+
+.left_arrow {
+    position: absolute;
+    top: 204px;
+    left: 7px;
+    opacity: 0.7;
+    border-radius: 4px;
+    width: 32px;
+    height: 49px;
+    background: url("../images/left_arrow.png");
+ }
+.right_arrow {
+    position: absolute;
+    top: 204px;
+    left: 261px;
+    opacity: 0.7;
+    width: 32px;
+    height: 49px;
+    border-radius: 4px;
+    background: url("../images/right_arrow.png");
+}
+.left_arrow img, .right_arrow img {
+    border: 0;
+    border-radius: 4px;
+}
+
+.right_arrow:hover {
+    background: url("../images/right_arrow.jpg");
+    opacity: 0.7;
+    width: 32px;
+    height: 49px;
+    border-radius: 6px;
+}
+.left_arrow:hover {
+    background: url("../images/left_arrow.jpg");
+    opacity: 0.7;
+    width: 32px;
+    height: 49px;
+    border-radius: 6px;
+}
+
+.slaider_text {
+    background: url("../images/bg_slaider.png");
+    position: absolute;
+    opacity: 0.7;
+    top: 204px;
+    left: 41px;
+    width: 218px;
+    height: 49px;
+    font-family: arial, sans-serif;
+
+
+}
+.slaider_text p{
+    margin: 0;
+
+}
+.slaider_text_title {
+    color: #ffffff;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 7px;
+
+}
+
+
+.slaider_text_description {
+    padding-left: 8px;
+}
+.orange_text {
+    color: #ffc14c;
+    font-size: 11px;
+}
+.grey_text {
+    color: #676767;
+    font-size: 11px;
+
+}
+
 h2  {
     font-size: 38px;
     font-weight: normal;
