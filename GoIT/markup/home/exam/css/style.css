@@ -592,3 +592,7 @@ footer {
     visibility: visible;
     transition: 2s;
 }
+.visible_button img:hover {
+    border-radius: 180px;
+    border: 1px solid rgba(103, 95, 95, 0.66);
+}
