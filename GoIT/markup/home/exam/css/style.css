@@ -114,6 +114,13 @@ body   {
     background: #ffc552;
     margin-right: 13px;
 }
+
+.apply:hover {
+
+    background-color: #eeb119;
+    text-shadow: 1px 1px 2px black, 0 0 1em #ffa937;
+    cursor: pointer;
+}
 .slider_block {
     clear: both;
     height: 321px;
@@ -392,8 +399,8 @@ span.highlightme {
     color: #333333;
 }
 .obtek a:hover{
-    font-weight: 600;
-    color: #333333;
+color: #0da687;
+
 }
 .news_box {
     float: left;
@@ -439,7 +446,7 @@ footer {
     color: #666666;
 }
 .footer_list a:hover{
-    font-weight: 600;
+    color: #0da687;
 }
 
 .footer_list li{
@@ -449,9 +456,11 @@ footer {
 
 .footer_list_two li {
     border-bottom: 1px solid #e4e4e4;
-    padding: 17px 0 13px 33px;
+    height: 60px;
     font-family: arial, sans-serif;
+    list-style-image: url("../images/icon_list.png");
 }
+
 .footer_list_two {
     margin: 0;
     padding: 0;
@@ -473,7 +482,7 @@ footer {
     margin-left: -24px;
 }
 .footer_list_last a:hover {
-    font-weight: 600;
+    color: #0da687;
 }
 
 .footer_list_last p{
@@ -487,11 +496,7 @@ footer {
     text-decoration: none;
     color: #666666;
 }
-.icon_list {
-    position: absolute;
-    content: url(../images/icon_list.png);
-    margin-top: 18px;
-}
+
 .lines {
     content: url(../images/lines.png);
     width: 985px;
@@ -543,4 +548,47 @@ footer {
     margin-top: 6px;
     margin-left: -10px;
     opacity: 0.3;
+}
+.visible_button {
+    position: absolute;
+    background: url("../images/bg_grey.png");
+    width: 296px;
+    height: 142px;
+    margin-left: 4px;
+    margin-top: 4px;
+    visibility: hidden;
+    transition: 10ms;
+
+}
+
+.visible_button img{
+    background-image: none;
+    border: 0;
+
+}
+
+.left_image {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: 56px;
+    cursor: pointer;
+}
+
+.center_image {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 43px;
+    cursor: pointer;
+ }
+
+.right_image {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 185px;
+    margin-top: 56px;
+}
+
+.news_block:hover .visible_button{
+    visibility: visible;
+    transition: 2s;
 }
