@@ -541,7 +541,6 @@ footer {
     z-index: -1;
     margin-bottom: 80px;
 }
-
 .list_icon {
     position: absolute;
     content: url(../images/list_icon.png);
@@ -558,36 +557,29 @@ footer {
     margin-top: 4px;
     visibility: hidden;
     transition: 10ms;
-
 }
-
 .visible_button img{
     background-image: none;
     border: 0;
-
 }
-
 .left_image {
     position: absolute;
     margin-left: 81px;
     margin-top: 56px;
     cursor: pointer;
 }
-
 .center_image {
     position: absolute;
     margin-left: 120px;
     margin-top: 43px;
     cursor: pointer;
  }
-
 .right_image {
     position: absolute;
     cursor: pointer;
     margin-left: 185px;
     margin-top: 56px;
 }
-
 .news_block:hover .visible_button{
     visibility: visible;
     transition: 2s;
@@ -595,4 +587,48 @@ footer {
 .visible_button img:hover {
     border-radius: 180px;
     border: 1px solid rgba(103, 95, 95, 0.66);
+}
+.orange_button {
+    width: 168px;
+    height: 42px;
+    background: linear-gradient(to top,#ffb841, #ffc351);
+    border-radius: 3px;
+    border: 1px solid #efac3c;
+    color: #ffffff;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 334px;
+    margin-top: 184px;
+    font-family: 'Oxygen', sans-serif;
+}
+.orange_button_title {
+    font-size: 17px;
+    text-shadow: #101010;
+    padding-left: 8px;
+    padding-top: 3px;
+    position: absolute;
+}
+.orange_button_description {
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    color: #d28600;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.orange_button_arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 127px;
+    border-left: 1px solid #ffb138;
+}
+.orange_button_arrow img {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.orange_button:hover {
+    text-shadow: 1px 1px 2px black, 0 0 1em #ffa937;
 }
