@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task5</title>
+</head>
+<body>
+<script>
+    var login = prompt('введите логин?' );
+
+    var message = (login == 'admin') ? 'Hi' :
+            (login == 'manager') ? 'Hello!' :
+                    (login == null) ? 'No login' :
+                            'Какой необычный возраст!';
+
+    alert( message );
+</script>
+</body>
+</html>
