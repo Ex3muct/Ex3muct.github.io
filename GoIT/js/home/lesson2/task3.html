@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var name = prompt('Введите Ваш логин?');
+    var password;
+    if (name == 'admin')
+    { password = prompt('Введите Ваш пароль?');
+        if (password=='passw0rd')                            {alert('Welcome home!');}
+        else if (password != 'passw0rd' && password != null) {alert('Wrong password');}
+        else                                                 {alert('Canceled');}
+
+    }
+    else if (name=='null') { alert('Canceled');
+    }
+    else {alert('Access denied');
+    }
+</script>
+</body>
+</html>
